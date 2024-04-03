@@ -1,0 +1,48 @@
+body {
+  margin: 0 8px;
+}
+.header {
+  width: 100%;
+  background-color: dimgray;
+}
+.header nav ul {
+  list-style-type: none;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.header nav ul li a {
+  text-decoration: none;
+  padding: 25px;
+  color: white;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+}
+.button {
+  padding: 8px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+}
+.form-container {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 250px;
+}
+.product-card {
+  width: 200px;
+  background: aliceblue;
+  padding: 0px 10px;
+  margin: 1rem;
+}
+.active {
+  color: yellow !important;
+}
+

@@ -1,0 +1,33 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <style>
+      body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin:
+      0; padding: 0; } .container { width: 100%; max-width: 600px; margin: 0
+      auto; padding: 20px; } .card { background-color: #ffffff; border-radius:
+      8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; } .header h1
+      { text-align: center; margin-bottom: 20px; } .main { text-align: center; }
+      .footer { text-align: center; margin-top: 20px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <h1>Welcome, {{name}}</h1>
+        </div>
+        <div class="main">
+          <p>Hi {{name}},</p>
+          <p>Welcome to our website! Thank you for registering with us.</p>
+          <!-- You can add more content here -->
+        </div>
+        <div class="footer">
+          <p>Best regards,<br />Your Website Team</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
